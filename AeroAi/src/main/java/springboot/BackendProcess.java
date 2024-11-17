@@ -28,7 +28,7 @@ public class BackendProcess {
             System.out.println("Current Thread for backend 1: " + current);}
     
 
-    private static final String AI21_API_KEY = "uk78svuT3S9eUZJPnsn1mKREbdUqhQbB"; // Replace with your AI21 API key
+    private static final String AI21_API_KEY = "Your API key here"; // Replace with your AI21 API key
     private static final String AI21_API_URL = "https://api.ai21.com/studio/v1/j2-ultra/chat"; // this uses jurassic 2 model
 
     
