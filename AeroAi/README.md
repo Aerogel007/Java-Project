@@ -1,4 +1,5 @@
-**this is an a java fx app with spring boot for backend. and it runs as utiltiy inside system tray. and uses maven project structure.**  
+**this is an a java fx app with spring boot for backend. and it runs as utiltiy inside system tray. and uses maven project structure.  
+to create an AI assitance which helps in paraphrasing**  
 -------------------------------------------------------------------------------------------------------------------------------------  
 what this does.
 * converse with jurassic2 AI, and ask it to paraphrase sentences to make it more polite, flirty, witty, etc...
