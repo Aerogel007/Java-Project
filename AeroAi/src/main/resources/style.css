@@ -1,0 +1,81 @@
+/*css styling*/
+/* Root Layout */
+/*here -fx- codes are for java fx while standard codes are for browsers */
+.root {
+
+    background-color: #cac9c9;  /* Standard background-color (for web browsers) */
+    -fx-background-color: #cac9c9; 
+    -fx-background-radius: 10px;
+
+}
+
+/* Label Styling */
+.label {
+    font-size: larger;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold; /* Set text to bold */
+    font-weight: 100;
+    -fx-text-fill: #333; /* Darker text color for better visibility */
+}
+
+/* Button Styling */
+.button {
+    background-color: #5b82cf;
+    font-size: large;
+    border-radius: 20px;
+    -fx-background-radius: 10px;
+    -fx-background-color: #4668b3;
+    -fx-text-fill: white;
+    -fx-font-size: 14px; /* Optional: Set button text size */
+    -fx-border-radius: 10px; /* Rounded corners for the button */
+    -fx-border-color:#d88f21;
+    -fx-padding: 10px;
+    padding: auto;
+    border-color:#333;
+    -fx-font-weight: bold; /* Set text to bold */
+    font-weight: 100;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 2, 2, 2, 2);/* for physical button effect*/
+
+}
+.copy-button{
+    -fx-background-radius: 10px;
+    -fx-background-color: #e28d0d;
+    background-color: #f8c06b;
+    -fx-font-size: 10px;
+    font-size: large;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 1), 8, 0, 2, 2);
+    
+}
+/* Targeting the TextArea directly */
+.my-textarea {
+    -fx-background-color: #f0f0f0;  /* Background color */
+    -fx-border-color: #ccc;         /* Border color */
+    -fx-border-radius: 10;          /* Rounded corners for border */
+    -fx-background-radius: 10;      /* Rounded corners for background */
+    -fx-border-width: 2;            /* Border width */
+    -fx-padding: 4px;              /* Padding inside the TextArea */
+    background-color: #00acc1;
+    border-radius: 0%;
+    border-width: 0cap;
+    padding: auto;
+    border-color: #00acc1;
+}
+
+/* Focused state styling */
+.my-textarea:focused {
+    -fx-background-color: #e0f7fa;     /* Light blue background when focused */
+    -fx-border-color: #00acc1;         /* Blue border when focused */
+    border-color: #00acc1;
+    background-color: #00acc1;
+}
+.outputlabel{
+    -fx-padding: 0 250 0 0;
+    
+
+}
+
+.copiedlabel{
+    -fx-text-fill: rgb(212, 145, 51); /* Text color */
+}
+
+
